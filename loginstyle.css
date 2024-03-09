@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.upper {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100px;
+}
+
+form {
+    height: 350px;
+    margin-top: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: .5px solid gray;
+
+    border-radius: 10px;
+    padding: 20px;
+    gap: 5px;
+}
+
+input {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: .5px solid gray;
+}
+
+.Continue {
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(245, 218, 97);
+}
+
+.createAccount {
+    width: 330px;
+    font-size: 14px;
+    padding: 10px;
+    border: .1px solid gray;
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 13px;
+}
+
+h4 {
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+form a {
+    font-size: 13px;
+}
+
+p {
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+
+.needHelp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+
+}
+
+.needHelp a {
+    font-size: 13px;
+}
+
+hr {
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 0;
+    border-top: 1px solid #e7e7e7;
+    line-height: 19px;
+    margin-bottom: 14px;
+}
+
+.lower {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConditionPrivecyHelp a span {
+    margin-right: 30px;
+    font-size: 11px;
+    margin-top: 15px;
+
+}
+
+.Copyright {
+    font-size: 11px;
+    margin-top: 15px;
+}
